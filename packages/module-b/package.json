@@ -1,9 +1,9 @@
 {
   "name": "module-b",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "devDependencies": {
     "@babel/core": "^7.9.6",
-    "module-a": "^0.0.3"
+    "module-a": "^0.0.4"
   },
   "gitHead": "ca99716999748a24a045b8ded59691ac7407646b"
 }
