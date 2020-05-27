@@ -1,8 +1,8 @@
 {
   "name": "module-b",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "devDependencies": {
     "@babel/core": "^7.9.6",
-    "module-a": "^0.0.2"
+    "module-a": "^0.0.3"
   }
 }
