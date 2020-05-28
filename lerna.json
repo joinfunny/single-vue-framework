@@ -21,16 +21,12 @@
   },
   "command": {
     "version": {
-      "allowBranch": "master"
+      "allowBranch": "master",
+      "conventionalCommits": true
     },
     "publish": {
       "ignoreChanges": ["*.md", "**/test/**"],
       "message": "chore(release): publish %s"
-    },
-    "command": {
-      "version": {
-        "conventionalCommits": true
-      }
     }
   },
   "npmClientArgs": ["--no-lockfile"]
