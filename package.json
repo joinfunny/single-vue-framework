@@ -1,11 +1,12 @@
 {
   "name": "svf",
   "private": true,
-  "version": "0.0.1",
+  "version": "0.0.2",
   "scripts": {
     "lint": "eslint packages/**",
     "c": "git-cz",
-    "release": "lerna publish --conventional-commits"
+    "release": "lerna publish --conventional-commits",
+    "release1": "standard-version"
   },
   "config": {
     "commitizen": {
@@ -58,6 +59,7 @@
     }
   },
   "dependencies": {
-    "flatmap-stream": "0.0.1-security"
+    "flatmap-stream": "0.0.1-security",
+    "standard-version": "^8.0.0"
   }
 }
