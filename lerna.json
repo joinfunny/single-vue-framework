@@ -4,7 +4,6 @@
   "npmClient": "yarn",
   "packages": ["packages/*"],
   "changelog": {
-    "repo": "svf",
     "labels": {
       "feat": ":rocket: 新功能",
       "fix": ":bug: BUG修复",

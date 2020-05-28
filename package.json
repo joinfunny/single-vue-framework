@@ -11,21 +11,6 @@
       "path": "./node_modules/cz-lerna-changelog"
     }
   },
-  "changelog": {
-    "labels": {
-      "feat": ":rocket: 新功能",
-      "fix": ":bug: BUG修复",
-      "style": ":memo:  不改变代码逻辑 (仅仅修改了空格、格式缩进、逗号等等)",
-      "docs": ":memo: 修改文档，比如 README, CHANGELOG, CONTRIBUTE 等等",
-      "refactor": ":house: 重构（既不修复错误也不添加功能）",
-      "perf": ":boom: 优化相关，比如提升性能、体验",
-      "test": ":boom: 增加测试，包括单元测试、集成测试等",
-      "build": ":boom: 构建系统或外部依赖项的更改",
-      "ci": ":boom: 自动化流程配置或脚本修改",
-      "chore": ":boom: 非 src 和 test 的修改",
-      "revert": ":boom: 恢复先前的提交"
-    }
-  },
   "devDependencies": {
     "@babel/core": "^7.9.6",
     "@babel/preset-env": "^7.9.6",
